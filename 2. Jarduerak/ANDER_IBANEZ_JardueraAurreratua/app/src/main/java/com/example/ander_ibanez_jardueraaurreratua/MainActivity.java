@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 if (hasieraTV.getVisibility() == View.INVISIBLE){
 
                     // Hasiera textua visible jarri
-                    hasieraTV.setVisibility(View.VISIBLE);
+                    homeButtonAktibatu();
 
                 }
 
@@ -95,15 +95,13 @@ public class MainActivity extends AppCompatActivity {
                 if (irudiakTV.getVisibility() == View.INVISIBLE){
 
                     // Irudiak textua visible jarri
-                    irudiakTV.setVisibility(View.VISIBLE);
-
+                    irudiakButtonAktibatu();
                 }
 
                 if (hasieraTV.getVisibility() == View.VISIBLE){
 
                     // Hasiera textuari visible aldatu
-                    hasieraTV.setVisibility(View.INVISIBLE);
-
+                    homeButtonDESAktibatu();
                 }
 
                 if (paintTV.getVisibility() == View.VISIBLE){
@@ -132,15 +130,13 @@ public class MainActivity extends AppCompatActivity {
                 if (paintTV.getVisibility() == View.INVISIBLE){
 
                     // paint textua visible jarri
-                    paintTV.setVisibility(View.VISIBLE);
-
+                    paintButtonAktibatu();
                 }
 
                 if (hasieraTV.getVisibility() == View.VISIBLE){
 
                     // Hasiera textuari visible aldatu
-                    hasieraTV.setVisibility(View.INVISIBLE);
-
+                    homeButtonDESAktibatu();
                 }
 
                 if (irudiakTV.getVisibility() == View.VISIBLE){
@@ -169,15 +165,13 @@ public class MainActivity extends AppCompatActivity {
                 if (mapsTV.getVisibility() == View.INVISIBLE){
 
                     // Maps textua visible jarri
-                    mapsTV.setVisibility(View.VISIBLE);
-
+                    mapsButtonAktibatu();
                 }
 
                 if (hasieraTV.getVisibility() == View.VISIBLE){
 
                     // Hasiera textuari visible aldatu
-                    hasieraTV.setVisibility(View.INVISIBLE);
-
+                    homeButtonDESAktibatu();
                 }
 
                 if (irudiakTV.getVisibility() == View.VISIBLE){
@@ -201,11 +195,39 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // Home botoiaren parametroak aktibatu
+    private void homeButtonAktibatu(){
 
+        hasieraTV.setVisibility(View.VISIBLE);
 
+    }
 
+    private void homeButtonDESAktibatu(){
 
+        hasieraTV.setVisibility(View.INVISIBLE);
 
+    }
+
+    // Irudiak botoiaren parametroak aktibatu
+    private void irudiakButtonAktibatu(){
+
+        irudiakTV.setVisibility(View.VISIBLE);
+
+    }
+
+    // Paint botoiaren parametroak aktibatu
+    private void paintButtonAktibatu(){
+
+        paintTV.setVisibility(View.VISIBLE);
+
+    }
+
+    // Maps botoiaren parametroak aktibatu
+    private void mapsButtonAktibatu(){
+
+        mapsTV.setVisibility(View.VISIBLE);
+
+    }
 
 
 
