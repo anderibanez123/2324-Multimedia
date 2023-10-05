@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="319dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="184dp"
+        android:text="Kaixo Android!"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/kaixoButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/kaixoButton"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="KAIXO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ButtonStyle,HardcodedText,MissingConstraints,TouchTargetSizeCheck,TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/kalkulagailuaButton"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="KALKULAGAILUA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/gehitu_BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="280dp"
+        android:text="+"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/bider_BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="72dp"
+        android:text="x"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" /><![CDATA[
+
+    />
+
+    ]]>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="257dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="77dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="5"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" /><![CDATA[
+
+    />
+
+    ]]>
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="77dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="5"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/erantzuna_txt"
+        android:layout_width="326dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="109dp"
+        android:text="Erantzuna: "
+        android:textSize="50px"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/titulua_txt"
+        android:layout_width="356dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="13dp"
+        android:text="ANDER IBAÑEZ - JARDUERAK"
+        android:textSize="68px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/garbitu_BT"
+        android:layout_width="213dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="138dp"
+        android:text="GARBITU"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/itxi"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="601dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/ezberdinak_BT"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginBottom="74dp"
+        android:text="EKINTZA EZ BERDINAK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/webOrrialdea_BT"
+        android:layout_width="324dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:text="BILATU"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webOrriaIdea_Text"
+        tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/partekatu_BT"
+        android:layout_width="322dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:text="PARTEKATU"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num2"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+    <EditText
+        android:id="@+id/partekatu_text"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulua_txt"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/webOrriaIdea_Text"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partekatu_BT"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
