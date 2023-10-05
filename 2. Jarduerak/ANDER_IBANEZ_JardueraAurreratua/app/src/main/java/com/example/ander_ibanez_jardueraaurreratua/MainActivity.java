@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Paint button sakatzerakoan egin behar duena
-        paintTV.setOnClickListener(new View.OnClickListener(){
+        paintButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
 
